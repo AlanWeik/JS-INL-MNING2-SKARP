@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>City Travel</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="text-center">WHERE WOULD YOU LIKE TO GO?</h1>
+        <input type="text" id="city" name="search" />
+        <button id="button" type="submit">GO</button>
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" id="check1" value="" />Show
+          Weather
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" id="check2" value="" />Show
+          Attractions
+        </label>
+    </main>
+
+    <div class="container">
+      <div id="destination">
+        <h2></h2>
+      </div>
+    </div>
+
+      <section id="weather">
+        <div class="weather" id="weather1">
+          <h3 id="temp"></h3>
+          <h3 id="wind"></h3>
+          <h3 id="desc"></h3>
+        </div>
+      </section>
+
+    <div class="container">
+      <div id="sectionTitle">
+        <h2></h2>
+      </div>
+    </div>
+
+      <section id="venues">
+        <div class="venue" id="venue1">
+          <h3 id="venueName1"></h3>
+          <h4 id="adress1"></h4>
+        </div>
+
+        <div class="venue" id="venue2">
+          <h3 id="venueName2"></h3>
+          <h4 id="adress2"></h4>
+        </div>
+
+        <div class="venue" id="venue3">
+          <h3 id="venueName3"></h3>
+          <h4 id="adress3"></h4>
+        </div>
+      </section>
+    </div>
+    <!-- JavaScript -->
+    <script src="JS/fetcher.js"></script>
+    <script src="JS/organizer.js"></script>
+  </body>
+</html>
